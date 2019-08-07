@@ -1,0 +1,14 @@
+E:\锦\Webz\TestDemo\bin\Release\TestDemo.exe.config
+E:\锦\Webz\TestDemo\bin\Release\TestDemo.exe
+E:\锦\Webz\TestDemo\bin\Release\TestDemo.pdb
+E:\锦\Webz\TestDemo\bin\Release\BLL.dll
+E:\锦\Webz\TestDemo\bin\Release\DAL.dll
+E:\锦\Webz\TestDemo\bin\Release\DBHerp.dll
+E:\锦\Webz\TestDemo\bin\Release\Model.dll
+E:\锦\Webz\TestDemo\bin\Release\BLL.pdb
+E:\锦\Webz\TestDemo\bin\Release\DAL.pdb
+E:\锦\Webz\TestDemo\bin\Release\DBHerp.pdb
+E:\锦\Webz\TestDemo\bin\Release\Model.pdb
+E:\锦\Webz\TestDemo\obj\Release\TestDemo.csprojResolveAssemblyReference.cache
+E:\锦\Webz\TestDemo\obj\Release\TestDemo.exe
+E:\锦\Webz\TestDemo\obj\Release\TestDemo.pdb

@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="addSite.master.cs" Inherits="Webz.Admin.addSite" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>同步教学视频学习后台管理系统</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../CSS/addSite.css" rel="stylesheet" />
+    <style>
+           
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="top">
+                <div class="The_user_name">
+                    用户名：
+                </div>
+            </div>
+            <header id="In_the">
+                <div id="The_drop_down">
+                    <div class="A_drop_down_box">
+                        <div class="A_img">
+                            <img src="Img/打勾.png" />
+                        </div>
+                        <div class="color">&nbsp;主&nbsp;&nbsp;页</div>
+                        <div class="The_drop_down_pictures">
+                            <img src="Img/打勾.png" />
+                        </div>
+                    </div>
+                    <div class="A_drop_down_box">
+                        <div class="A_img">
+                            <img src="Img/打勾.png" />
+                        </div>
+                        <div class="color">&nbsp;视频源管理</div>
+                        <div class="The_drop_down_pictures">
+                            <img src="Img/打勾.png" />
+                        </div>
+                    </div>
+                    
+                    <div class="A_drop_down_box">
+                        <div class="A_img">
+                            <img src="Img/打勾.png" />
+                        </div>
+                        <div class="color">&nbsp;教材目录管理</div>
+                        <div class="The_drop_down_pictures">
+                            <img src="Img/打勾.png" />
+                        </div>
+                    </div>
+                    <div class="A_drop_down_box">
+                        <div class="A_img">
+                            <img src="Img/打勾.png" />
+                        </div>
+                        <div class="color">&nbsp;视频匹配</div>
+                        <div class="The_drop_down_pictures">
+                            <img src="Img/打勾.png" />
+                        </div>
+                    </div>
+                    <div class="A_drop_down_box">
+                        <div class="A_img">
+                            <img src="Img/打勾.png" />
+                        </div>
+                        <div class="color">&nbsp;用户统计</div>
+                        <div class="The_drop_down_pictures">
+                            <img src="Img/打勾.png" />
+                        </div>
+                    </div>
+                    <div class="A_drop_down_box">
+                        <div class="A_img">
+                            <img src="Img/打勾.png" />
+                        </div>
+                        <div class="color">&nbsp;意见反馈</div>
+                        <div class="The_drop_down_pictures">
+                            <img src="Img/打勾.png" />
+                        </div>
+                    </div>
+                    <div class="A_drop_down_box">
+                        <div class="A_img">
+                            <img src="Img/打勾.png" />
+                        </div>
+                        <div class="color">&nbsp;账号管理</div>
+                        <div class="The_drop_down_pictures">
+                            <img src="Img/打勾.png" />
+                        </div>
+                    </div>
+                    <div class="A_drop_down_box">
+                        <div class="A_img">
+                            <img src="Img/打勾.png" />
+                        </div>
+                        <div class="color">&nbsp;退&nbsp;&nbsp;出</div>
+                        <div class="The_drop_down_pictures">
+                            <img src="Img/打勾.png" />
+                        </div>
+                    </div>
+                </div>
+                <div id="Modify_the">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </header>
+        </div>
+    </form>
+</body>
+</html>

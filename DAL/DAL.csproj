@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D58222C-110E-4AD2-8317-686F20AD2BC6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminsDAL.cs" />
+    <Compile Include="BooksCatalogDAL.cs" />
+    <Compile Include="BooksDAL.cs" />
+    <Compile Include="CardDAL.cs" />
+    <Compile Include="CataLogDAL.cs" />
+    <Compile Include="CC_GradeDAL.cs" />
+    <Compile Include="CC_PageListDAL.cs" />
+    <Compile Include="CC_PressDAL.cs" />
+    <Compile Include="CC_SubjectDAL.cs" />
+    <Compile Include="CC_TestDAL.cs" />
+    <Compile Include="CC_VideoRouteDAL.cs" />
+    <Compile Include="CommentDAL.cs" />
+    <Compile Include="TempPageListDAL.cs" />
+    <Compile Include="VideoInfoDAL.cs" />
+    <Compile Include="FeedBackDAL.cs" />
+    <Compile Include="GradeDAl.cs" />
+    <Compile Include="IndexImgDAL.cs" />
+    <Compile Include="PressDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RolesDAL.cs" />
+    <Compile Include="SubjectDAL.cs" />
+    <Compile Include="TestDAL.cs" />
+    <Compile Include="UserDAL.cs" />
+    <Compile Include="UserSetDAL.cs" />
+    <Compile Include="VideoDAL.cs" />
+    <Compile Include="VideoRouteDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBHerp\DBHerp.csproj">
+      <Project>{1bbed9ba-1862-4701-aa7e-8986f0322d66}</Project>
+      <Name>DBHerp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{b701da42-139f-4724-b8b1-00d6aaa4c201}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

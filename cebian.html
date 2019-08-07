@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="CSS/cebianlan.css" rel="stylesheet" />
+    <style>
+    </style>
+</head>
+<body>
+           <div id="top"></div>
+    <div>
+        <div id="count_l">
+            <!--<div id="cebian">
+                <div><span>视频源管理</span></div>
+                <div><span>教材目录管理</span></div>
+                <div id="CB_VideoPi" class="xiala"> <span> 视频匹配</span> 
+                    <div class="border"><span>模糊匹配</span></div>
+                    <div><span>批量匹配</span></div>
+                </div>
+                <div id="CB_User" class="xiala">
+                    <span>用户统计</span>
+                    <div class="border"><span>注册统计</span></div>
+                    <div><span>播放统计</span></div>
+                </div>
+                <div><span>意见反馈</span></div>
+                <div id="CB_Admin" class="xiala">
+                    <span>账号管理</span>
+                    <div class="border"><span>修改密码</span></div>
+                    <div><span>更改账号权限</span></div>
+                </div>
+                <div><span>退出</span></div>
+            </div>-->
+        </div>
+    </div>
+</body>
+</html>
+<script src="Scripts/jquery-1.8.2.min.js"></script>
+<script src="js/cebianlan.js"></script>
+<script >
+    $(function () {
+        loadcebian();
+    })
+    $("body").on("click", ".xiala", function () {
+        $(this).find("div").animate({
+            height: 'toggle'
+        });
+    })
+    $(".xiala").click(function () {
+        $(this).find("div").animate({
+            height: 'toggle'
+        });
+    })
+
+</script>

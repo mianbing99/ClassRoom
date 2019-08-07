@@ -1,0 +1,68 @@
+﻿ * {
+                padding: 0px;
+                margin: 0px;
+            }
+
+            #top {
+                background: url(../Admin/Img/导航栏60.png) no-repeat;
+                width: 100%;
+                height: 60px;
+            }
+
+            #In_the {
+                width: 100%;
+                height: 100%;
+            }
+
+            .The_user_name {
+                color: #ffffff;
+                line-height: 70px;
+                float: right;
+            }
+
+            #The_drop_down {
+                width: 20%;
+                height: 900px;
+                background: #0F65CC;
+                float: left;
+            }
+
+            #Modify_the {
+                float: left;
+                width: 80%;
+                height: 900px;
+            }
+
+            .A_drop_down_box {
+                width: 100%;
+                height: 60px;
+                color: #ffffff;
+                line-height:60px;
+                float: left;
+                border-bottom:solid 1px #ffffff;
+            }
+
+            .A_img {
+                width: 20%;
+                height: 100%;
+                float: left;
+                line-height: 60px;
+                text-align:center;
+            }
+
+            .color {
+                width: 50%;
+                height: 100%;
+                float: left;
+                line-height: 40px;
+                font-size: 18px;
+                font-weight: 900;
+                left:10px;
+            }
+
+            .The_drop_down_pictures {
+                width: 30%;
+                height: 100%;
+                float: left;
+                line-height: 60px;
+            }

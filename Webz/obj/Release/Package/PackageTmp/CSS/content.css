@@ -1,0 +1,50 @@
+﻿.paginator  
+{  
+    font: 11px Arial, Helvetica, sans-serif;  
+    padding: 0px 5px 0px 15px;  
+    margin: 0px;  
+    font-family:微软雅黑;  
+    font-size:13px;  
+    width:100%;
+}  
+  
+/* 页面的背景以及字体*/  
+.paginator a  
+{  
+    padding: 1px 6px;  
+    border: solid 1px #7EC0EE;  
+    background:url(../Images/System/pages.png);  
+    text-decoration: none;  
+    margin-right: 2px;  
+    color:#436EEE;  
+}  
+  
+.paginator a:visited  
+{  
+    padding: 1px 6px;  
+    border: solid 1px #99d6ff;  
+    background: #fff;  
+    text-decoration: none;  
+    color:#4cb8ff;   
+}  
+  
+.paginator .cpb  
+{  
+    padding: 1px 6px;  
+    font-weight: bold;  
+    font-size: 13px;  
+    border: none;  
+}  
+  
+.paginator a:hover  
+{  
+    color:#EE4000;  
+    background: #ebf7ff;  
+    border-color: #99d6ff;  
+    text-decoration: none;  
+}  
+  
+.paginator span  
+{  
+    color: #4cb8ff;  
+}  

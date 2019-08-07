@@ -1,0 +1,22 @@
+boby {padding: 0px;margin-top: 0px;margin-right: auto;margin-bottom: 0px;	margin-left: auto;}
+h1{color:#0099CC;line-height:120px;margin:0px auto;text-align:center;font-size:36px;}
+table{border:1px solid #a2c6d3; margin:0 auto;background:#fff;font-size:12px;}
+table td{border-right:1px solid #a2c6d3;border-bottom:1px solid #a2c6d3;padding:5px}
+.tt{background:#e5f2fa;line-height:18px;FONT-SIZE:12px;}
+.l1{layout-flow:vertical-ideographic}
+.big{FONT-SIZE:14px;font-weight:600;}
+.h2{FONT-SIZE:28px;font-weight:600;color:green;}
+caption{FONT-SIZE:22px;font-weight:600;color:green;}
+select{width:220px;}
+.title{FONT-SIZE:48px;font-weight:600;color:green;text-align:center;}
+input {width:220px;height:24px;font-size:15px;border: 1px solid #006AA8;}
+#codes{width:173px;height:24px;font-size:15px;border: 1px solid #006AA8;}
+#sub,#pt{ width:110px;FONT-SIZE:16px;font-weight:600;color:white;background:#006AA8;HEIGHT:24px;}
+#reset{ width:60px;FONT-SIZE:16px;font-weight:600;color:white;background:#006AA8;HEIGHT:24px;}
+.down{ width:160px;FONT-SIZE:22px;font-weight:600;padding:5px;color:white;background:#006AA8;}
+td span .red{text-align:center;padding:12px;}
+#time_,#sfzh_,#name_,#mima_,#code_{FONT-SIZE:14px;font-weight:600;color:red;padding-left:8px;}
+#tishi{text-align:center;margin-top:20px;}
+#tishi span{width:480px;color:red;font-size:14px;margin:5px;}
+#tishi div{width:480px;color:green;font-size:16px;margin:5px;}
+#footer{color:#0099CC;line-height:100%;text-align:center;font-size:12px;padding:8px;margin-top:18px;}

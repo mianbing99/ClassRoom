@@ -1,0 +1,9 @@
+﻿   * { margin:0px; padding:0px;}
+        body { width:100%; min-height:720px;}
+        #top { width: 100%; height: 80px; background-image:url(../Admin/Img/导航栏.png); background-repeat:no-repeat;}
+        #count_l { width: 15%; height:630px; background-color: #0F65CC; }
+        #cebian { width: 100%; height: 80px; line-height:40px; color: #F2F2F2; }
+        #cebian div span{ margin-left:20%;}
+        #cebian div div span { margin-left: 20%; }
+        .border { border-bottom: 1px solid #F2F2F2; }
+         #cebian div div { display: none; position: relative; background-color: #1E75DC; }
